@@ -8,7 +8,7 @@
       </template>
       
       <v-app-bar-title><a class="logobrand" href="/">
-          <v-icon start icon="fas fa-hurricane"></v-icon>Logo
+          <v-icon start icon="fas fa-hurricane"></v-icon>Collaborrate
         </a></v-app-bar-title>
 
       <v-text-field density="compact" variant="solo" label="Search" append-inner-icon="fas fa-search" single-line
@@ -66,15 +66,13 @@
 
             <v-list density="compact" nav>
               <v-list-item prepend-icon="fas fa-home" title="Home" value="home" href="/"></v-list-item>
-              <v-list-group prepend-icon="fas fa-feather-pointed" value="content manager">
-                <template v-slot:activator="{ props }">
-                  <v-list-item v-bind="props" title="Content Manager"></v-list-item>
-                </template>
-                <v-list-item prepend-icon="fas fa-feather" title="Blog" value="Blog" href="/Admin/Content/Blog">
-                </v-list-item>
-              </v-list-group>
-              <v-list-item prepend-icon="fas fa-user" title="Customers" value="Customers" href="/Admin/Customers">
-              </v-list-item>
+              <v-list-item prepend-icon="fas fa-diagram-project" title="Projects" value="Projects" href="/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-chalkboard" title="Learning" value="Learning" href="/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-note-sticky" title="Notes" value="Notes" href="/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-table-list" title="Checklists" value="Checklists" href="/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-door-open" title="Visits" value="Visits" href="/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-comments" title="Messenger" value="Messenger" href="/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-envelope" title="Mail" value="Mail" href="/Admin/Customers"></v-list-item>
               <v-list-item prepend-icon="fas fa-gear" title="Settings" value="settings"
                 href="/Admin/Settings/general-settings"></v-list-item>
             </v-list>
@@ -89,6 +87,7 @@
           </v-navigation-drawer>
           <v-main id="sidebarNav"></v-main>
           <main id="mainSection">
+            <lowerbar />
             <slot />
           </main>
         </v-layout>
@@ -100,10 +99,11 @@
 
 <script>
 import search from '../components/Search/search.vue'
+import lowerbar from '../components/Menus/lowerbar.vue'
 import ecosystemmenu from '../components/ecosystemmenu.vue'
 
   export default {
-  components: { ecosystemmenu, search },
+  components: { ecosystemmenu, lowerbar, search },
     data() {
       return {
         drawer: null,

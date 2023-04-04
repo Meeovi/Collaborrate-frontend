@@ -66,13 +66,14 @@
 
             <v-list density="compact" nav>
               <v-list-item prepend-icon="fas fa-home" title="Home" value="home" href="/"></v-list-item>
-              <v-list-item prepend-icon="fas fa-diagram-project" title="Projects" value="Projects" href="/"></v-list-item>
-              <v-list-item prepend-icon="fas fa-chalkboard" title="Learning" value="Learning" href="/"></v-list-item>
-              <v-list-item prepend-icon="fas fa-note-sticky" title="Notes" value="Notes" href="/"></v-list-item>
-              <v-list-item prepend-icon="fas fa-table-list" title="Checklists" value="Checklists" href="/"></v-list-item>
-              <v-list-item prepend-icon="fas fa-door-open" title="Visits" value="Visits" href="/"></v-list-item>
-              <v-list-item prepend-icon="fas fa-comments" title="Messenger" value="Messenger" href="/"></v-list-item>
-              <v-list-item prepend-icon="fas fa-envelope" title="Mail" value="Mail" href="/Admin/Customers"></v-list-item>
+              <v-list-item prepend-icon="fas fa-diagram-project" title="Projects" value="Projects" href="/projects/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-ticket" title="Tickets" value="Tickets" href="/tickets/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-chalkboard" title="Learning" value="Learning" href="/learning/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-note-sticky" title="Notes" value="Notes" href="/notes/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-table-list" title="Lists" value="Lists" href="/lists/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-door-open" title="Customers" value="Customers" href="/customers/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-comments" title="Messenger" value="Messenger" href="/messenger/"></v-list-item>
+              <v-list-item prepend-icon="fas fa-envelope" title="Mail" value="Mail" href="/mail/"></v-list-item>
               <v-list-item prepend-icon="fas fa-gear" title="Settings" value="settings"
                 href="/Admin/Settings/general-settings"></v-list-item>
             </v-list>

@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="lowerbar">
         <v-card>
             <v-tabs bg-color="transparent" align-tabs="center">
-                <v-tab>Customers</v-tab>
+                <h4>Customers</h4>
                 <v-tab><a href="/customers/">Customers</a></v-tab>
                 <v-tab><a href="/customers/addresses">Addresses</a></v-tab>
                 <v-tab><a href="/customers/leads">Leads</a></v-tab>

@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="lowerbar">
         <v-card>
             <v-tabs bg-color="transparent" align-tabs="center">
-                <v-tab>Meeovi Mail</v-tab>
+                <h4>Mail</h4>
                 <v-tab><a href="/mail/inbox">Inbox</a></v-tab>
                 <v-tab><a href="/mail/drafts">Drafts</a></v-tab>
                 <v-tab><a href="/mail/sent">Sent Items</a></v-tab>

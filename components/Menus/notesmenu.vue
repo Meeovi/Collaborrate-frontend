@@ -1,8 +1,8 @@
 <template>
-    <div>
+    <div class="lowerbar">
         <v-card>
             <v-tabs bg-color="transparent" align-tabs="center">
-                <v-tab>Meeovi Notes</v-tab>
+                <h4>Notes</h4>
                 <v-tab><a href="/notes/">Home</a></v-tab>
                 <v-tab><a href="/notes/mynotes">My Notes</a></v-tab>
                 <v-tab><a href="/notes/deepdive">Deep Dive</a></v-tab>

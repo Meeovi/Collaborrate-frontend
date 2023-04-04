@@ -12,6 +12,6 @@ export default {
 
 <script setup>
     useHead({
-        title: 'About '
+        title: 'About Collaborrate'
     })
 </script>

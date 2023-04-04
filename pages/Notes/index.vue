@@ -16,6 +16,6 @@ export default {
 
 <script setup>
     useHead({
-        title: ''
+        title: 'Meeovi Notes'
     })
 </script>

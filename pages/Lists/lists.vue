@@ -1,21 +1,21 @@
 <template>
     <div>
-        <notesmenu />
+        <listsmenu />
 
         
     </div>
 </template>
 
 <script>
-import notesmenu from '../../components/Menus/notesmenu.vue'
+import listsmenu from '../../components/Menus/listsmenu.vue'
 
 export default {
-    components: { notesmenu },
+    components: { listsmenu },
 }
 </script>
 
 <script setup>
     useHead({
-        title: ''
+        title: 'Meeovi ToDo'
     })
 </script>

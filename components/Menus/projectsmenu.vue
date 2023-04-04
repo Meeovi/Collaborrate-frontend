@@ -2,11 +2,12 @@
     <div>
         <v-card>
             <v-tabs bg-color="transparent" align-tabs="center">
-                <v-tab><a href="">Home</a></v-tab>
-                <v-tab><a href="">My Tasks</a></v-tab>
-                <v-tab><a href="">Reporting</a></v-tab>
-                <v-tab><a href="">Workspaces</a></v-tab>
-                <v-tab><a href="">Favorites</a></v-tab>
+                <v-tab>Projects</v-tab>
+                <v-tab><a href="/projects/">Home</a></v-tab>
+                <v-tab><a href="/projects/mytasks">My Tasks</a></v-tab>
+                <v-tab><a href="/projects/reporting">Reporting</a></v-tab>
+                <v-tab><a href="/projects/workspaces">Workspaces</a></v-tab>
+                <v-tab><a href="/projects/favorites">Favorites</a></v-tab>
             </v-tabs>
         </v-card>
     </div>

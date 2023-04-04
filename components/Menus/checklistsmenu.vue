@@ -2,13 +2,11 @@
     <div>
         <v-card>
             <v-tabs bg-color="transparent" align-tabs="center">
-                <v-tab><a href="">Projects</a></v-tab>
-                <v-tab><a href="">Learning</a></v-tab>
-                <v-tab><a href="">Notes</a></v-tab>
-                <v-tab><a href="">Checklists</a></v-tab>
-                <v-tab><a href="">Visits</a></v-tab>
-                <v-tab><a href="">Messenger</a></v-tab>
-                <v-tab><a href="">Mail</a></v-tab>
+                <v-tab>Lists</v-tab>
+                <v-tab><a href="/lists/">Home</a></v-tab>
+                <v-tab><a href="/lists/checklists">Checklists</a></v-tab>
+                <v-tab><a href="/lists/lists">Lists</a></v-tab>
+                <v-tab><a href="/lists/roadmaps">Roadmaps</a></v-tab>
             </v-tabs>
         </v-card>
     </div>

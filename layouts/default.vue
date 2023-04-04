@@ -87,7 +87,6 @@
           </v-navigation-drawer>
           <v-main id="sidebarNav"></v-main>
           <main id="mainSection">
-            <lowerbar />
             <slot />
           </main>
         </v-layout>
@@ -99,11 +98,10 @@
 
 <script>
 import search from '../components/Search/search.vue'
-import lowerbar from '../components/Menus/lowerbar.vue'
 import ecosystemmenu from '../components/ecosystemmenu.vue'
 
   export default {
-  components: { ecosystemmenu, lowerbar, search },
+  components: { ecosystemmenu, search },
     data() {
       return {
         drawer: null,

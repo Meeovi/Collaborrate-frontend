@@ -2,13 +2,14 @@
     <div>
         <v-card>
             <v-tabs bg-color="transparent" align-tabs="center">
-                <v-tab><a href="">Projects</a></v-tab>
-                <v-tab><a href="">Learning</a></v-tab>
-                <v-tab><a href="">Notes</a></v-tab>
-                <v-tab><a href="">Checklists</a></v-tab>
-                <v-tab><a href="">Visits</a></v-tab>
-                <v-tab><a href="">Messenger</a></v-tab>
-                <v-tab><a href="">Mail</a></v-tab>
+                <v-tab>Meeovi Notes</v-tab>
+                <v-tab><a href="/notes/">Home</a></v-tab>
+                <v-tab><a href="/notes/mynotes">My Notes</a></v-tab>
+                <v-tab><a href="/notes/deepdive">Deep Dive</a></v-tab>
+                <v-tab><a href="/notes/gemba">Gemba</a></v-tab>
+                <v-tab><a href="/notes/dashboards">Dashboards</a></v-tab>
+                <v-tab><a href="/notes/categories">Categories</a></v-tab>
+                <v-tab><a href="/notes/tags">Tags</a></v-tab>
             </v-tabs>
         </v-card>
     </div>

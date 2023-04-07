@@ -74,6 +74,28 @@ body {
     padding-right: 20px;
 }
 
+.homePage h3 {
+    padding-top: 15px;
+    padding-left: 4%;
+}
+
+.homeRow {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.createteambtn {
+    margin: 25px !important;
+}
+
+.createteamform {
+    padding: 20px;
+}
+
+.peoplelist {
+    padding-left: 10px;
+}
+
 /******************** Sidebar CSS *************/
 
 #sidebarNav {

@@ -68,8 +68,6 @@
               <v-list-item prepend-icon="fas fa-home" title="Home" value="home" href="/"></v-list-item>
               <v-list-item prepend-icon="fas fa-diagram-project" title="Projects" value="Projects" href="/projects/"></v-list-item>
               <v-list-item prepend-icon="fas fa-ticket" title="Tickets" value="Tickets" href="/tickets/"></v-list-item>
-              <v-list-item prepend-icon="fas fa-chalkboard" title="Learning" value="Learning" href="/learning/"></v-list-item>
-              <v-list-item prepend-icon="fas fa-note-sticky" title="Notes" value="Notes" href="/notes/"></v-list-item>
               <v-list-item prepend-icon="fas fa-table-list" title="Lists" value="Lists" href="/lists/"></v-list-item>
               <v-list-item prepend-icon="fas fa-door-open" title="Customers" value="Customers" href="/customers/"></v-list-item>
               <v-list-item prepend-icon="fas fa-comments" title="Messenger" value="Messenger" href="/messenger/"></v-list-item>
@@ -131,10 +129,10 @@ import ecosystemmenu from '../components/ecosystemmenu.vue'
     ref
   } from 'vue'
 
-  const theme = ref('light')
+  const theme = ref('dark')
 
   function onClick() {
-    theme.value = theme.value === 'light' ? 'dark' : 'light'
+    theme.value = theme.value === 'dark' ? 'dark' : 'light'
   };
 
 </script>

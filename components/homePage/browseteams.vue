@@ -7,12 +7,12 @@
                 </v-btn>
             </template>
 
-            <v-card>
+            <v-card min-height="800" min-width="800">
                 <v-row>
                     <v-col cols="6"><v-toolbar title="Browse Teams" color="transparent"></v-toolbar></v-col>
                     <v-col cols="6"><createteam /></v-col>
                 </v-row>
-                <v-table class="teamtable">
+                <v-table>
                     <thead>
                         <tr>
                             <th class="text-left">
@@ -41,7 +41,7 @@
                     </tbody>
                 </v-table>
                 <v-card-actions>
-                    <v-btn color="primary" block @click="dialog = false">Close Dialog</v-btn>
+                    <v-btn color="primary" block @click="dialog = false">Close</v-btn>
                 </v-card-actions>
             </v-card>
         </v-dialog>

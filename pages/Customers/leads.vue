@@ -2,8 +2,8 @@
     <div>
         <customersmenu />
         <v-row>
-            <v-col cols="8"><v-toolbar color="transparent" title="Targets"></v-toolbar></v-col>
-            <v-col cols="4"><addtargets /></v-col>
+            <v-col cols="8"><v-toolbar color="transparent" title="Leads"></v-toolbar></v-col>
+            <v-col cols="4"><addleads /></v-col>
         </v-row>
         <v-table>
             <thead>
@@ -29,18 +29,18 @@
 
 <script>
     import customersmenu from '../../components/Menus/customersmenu.vue'
-    import addtargets from '../../components/Content/customers/add-targets.vue'
+    import addleads from '../../components/Content/customers/add-leads.vue'
 
     export default {
         components: {
             customersmenu,
-            addtargets
+            addleads
         },
     }
 </script>
 
 <script setup>
     useHead({
-        title: 'Targets'
+        title: 'Leads'
     })
 </script>

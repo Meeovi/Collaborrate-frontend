@@ -97,6 +97,15 @@ body {
     padding-left: 10px;
 }
 
+.memberPage {
+    padding: 20px;
+}
+
+.memberPage h6 {
+    padding-top: 15px;
+    padding-left: 35px;
+}
+
 /******************** Sidebar CSS *************/
 
 #sidebarNav {
